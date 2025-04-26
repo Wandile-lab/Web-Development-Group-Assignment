@@ -1,1 +1,180 @@
 
+/*Member 2*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skill-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.skills{
+    width: 350px;
+    margin-top: 10.5%;  
+}
+
+.bookImg-split-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+    margin-bottom: 55px;
+   
+
+}
+
+.bookImg-split-container .bookImg-split{
+    width: 350px;
+    height: 255px;
+    background:  url("images/book.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    
+
+}
+.bookImg-split-container .bookImg-split:nth-child(1){
+    background-position-y: 145px;
+}
+
+.space{
+    background-color: white;
+    height: 100px ;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+.bookImg-split-container .bookImg-split:nth-of-type(2){
+    background-position-y: -110px;
+}
+
+.skills h1{
+    margin-bottom: 90px;
+}
+
+ .skills h3, .description{
+    width: 450px;
+    opacity: 0.5;
+}
+
+.skill-container{
+    margin-bottom: 20px;
+    
+}
+
+.skill-bar{
+    width: 450px;
+    height: 5px;
+    background-color: rgb(246, 243, 243);
+}
+
+.skill-fill1{
+    max-width: 450px;
+    width: 80%;
+    height: 5px;
+    background-color: rgb(2, 130, 17);
+    
+}
+
+.skill-fill2{
+    max-width: 450px;
+    width:95%;
+    height: 5px;
+    background-color: rgb(2, 130, 17);
+
+}
+
+.skill-fill3{
+    max-width: 450px;
+    width: 60%;
+    height: 5px;
+    background-color: rgb(2, 130, 17);
+
+}
+
+.skill-fill4{
+    max-width: 450px;
+    width: 80%;
+    height: 5px;
+    background-color: rgb(2, 130, 17);
+
+}
+
+#icon{
+    margin-right: 10px;
+}
+
+
+
+.interests-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 90%;
+    min-width: 550px; 
+    padding-block: 100px; 
+    height: 300px;
+    background-color: rgb(236, 240, 242);
+
+}
+
+.interests{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    max-width: 100%;
+    height: 200px;
+    padding: 20px;
+    gap: 0;
+
+} 
+
+  .grid-columns {
+    display: grid;
+    height: 10px;
+    column-gap: 20px;
+    max-width: 570px; 
+    min-width: 500px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+  }
+
+  
+  
+
+#humanImg{
+    width: 250px;
+    height: 400px;
+    min-height: auto;
+    min-width: none;
+    padding-bottom: 200px;
+    
+
+}
+
+.review-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    justify-content: space-around;
+    
+
+}
+
+.review-blocks h2{
+    padding-left: 30px;
+}
+
+
+
+
